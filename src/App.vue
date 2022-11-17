@@ -5,7 +5,7 @@
         <router-view class="section-router"></router-view>
     </div>
     <div id="section-player" v-if="authCheck">
-        <AudioPlayer />
+        <AudioPlayer/>
     </div>
 </template>
 <script>
