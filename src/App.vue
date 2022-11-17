@@ -13,7 +13,7 @@ import { auth } from './stores/auth';
 export default {
     data: () => {
         return {
-            auth
+            authCheck: auth.is_authenticated
         }
     }
 }
